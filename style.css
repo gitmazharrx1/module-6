@@ -8,3 +8,31 @@ table{
     height: 150px;
     text-align: center;
 }
+ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+li:hover{
+    background-color: darkgray;
+    
+}
+nav>ul>a:hover>ul{
+    display: block;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+li{
+    padding-right: 25px;
+    padding-left: 25px;
+    color: black;
+    font-weight: 700;
+}
+.dropdown{
+    display: block;
+    display: none;
+    padding: 0px;
+    
+}
